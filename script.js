@@ -21,7 +21,7 @@ for (var i = 0; i < list.length; i++) {
   contains = false; 
 }
 
-var list2 = document.getElementsByClassName("cLjAic");
+var list2 = document.getElementsByClassName("mod");
 for (var i = 0; i < list2.length; i++) {
   // this will remove the node from the pageif (list[i].hasChildNodes()) {}
   replaceText(list2[i])
