@@ -1,0 +1,13 @@
+{
+  "name": "Coronavirus Extension",
+  "version": "1.0",
+  "description": "Block/Highlight Coronavirus",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["script.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
