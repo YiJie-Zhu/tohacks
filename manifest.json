@@ -20,6 +20,15 @@
     {
       "matches": ["https://www.reddit.com/*"],
       "js": ["reddit.js"]
+    },
+    {
+      "matches": ["https://www.facebook.com/*"],
+      "js": ["facebook-remover.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["<all_urls>"],
+      "js": ["yahoo.js"]
     }
   ]
 }
