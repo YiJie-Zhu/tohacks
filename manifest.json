@@ -10,7 +10,11 @@
     },
     {
       "matches": ["https://www.youtube.com/*"],
-      "js": ["youtube.js"],
+      "js": ["youtube.js"]
+    },
+    {
+      "matches": ["https://www.cnn.com/*"],
+      "js": ["cnn.js"],
       "css": ["styles.css"]
     },
     {
