@@ -5,8 +5,13 @@
   "manifest_version": 2,
   "content_scripts": [
     {
-      "matches": ["https://www.google.com/*"],
+      "matches": ["https://www.google.com/search*"],
       "js": ["script.js"]
+    },
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["youtube.js"],
+      "css": ["styles.css"]
     },
     {
       "matches": ["https://www.reddit.com/*"],
